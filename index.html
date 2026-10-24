@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beachhead – Eras of Conquest</title>
+<meta name="description" content="Beachhead is an open-source engine that plays your own copies of the Refractor-era Battlefield games: faithful first, then better. A solo project by ZALIAS.">
+<meta name="theme-color" content="#0f1112">
+<meta property="og:title" content="Beachhead – Eras of Conquest">
+<meta property="og:description" content="The Refractor-era Battlefields, rebuilt from the ground up. Your copy, a new engine.">
+<meta property="og:image" content="assets/img/wake-evening.webp">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="nav-mark" href="#top" aria-label="Beachhead home">BEACHHEAD</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+  <nav id="nav-links" class="nav-links">
+    <a href="#what">What it is</a>
+    <a href="#eras">The eras</a>
+    <a href="#modes">Classic &amp; Modern</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="hero">
+  <picture class="hero-bg">
+    <source media="(max-width: 720px)" srcset="assets/img/wake-evening-sm.webp">
+    <img src="assets/img/wake-evening.webp" alt="Wake Island at dusk, rendered in the Beachhead engine" fetchpriority="high">
+  </picture>
+  <div class="hero-shade"></div>
+  <div class="hero-inner">
+    <p class="kicker">Open source · in development</p>
+    <h1 class="sr-only">Beachhead – Eras of Conquest</h1>
+    <img class="hero-logo" src="assets/brand/eras-of-conquest.webp" alt="Beachhead – Eras of Conquest" width="1100" height="348">
+    <p class="hero-line">The Refractor-era Battlefields, rebuilt from the ground up.</p>
+    <p class="hero-sub">An open-source engine that plays <em>your own copies</em> of the classics. Faithful first, then better.</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#eras">Meet the four eras</a>
+      <a class="btn btn-ghost" href="#gallery">See it running</a>
+    </div>
+  </div>
+  <a class="hero-scroll" href="#what" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- What it is -->
+<section class="section" id="what">
+  <div class="wrap">
+    <p class="eyebrow">What it is</p>
+    <h2 class="display">A new engine for an old front line</h2>
+    <p class="lede">Beachhead reads the game you already own, straight from your install, and plays it on modern technology. Same maps, same vehicles, same rules. Native ultrawide, modern renderer, and an engine that can finally grow.</p>
+    <div class="pillars">
+      <article class="pillar">
+        <span class="pillar-num">01</span>
+        <h3>Your copy, our engine</h3>
+        <p>Beachhead ships engine code only. Levels, models, sounds and scripts load in place from your own legally owned installation. Nothing original is redistributed.</p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">02</span>
+        <h3>Faithful first</h3>
+        <p>Torque curves, wheel grip, wing lift, fall damage, the HUD and its animations: every rule is recovered from the original and written down before the new engine implements it.</p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">03</span>
+        <h3>Then better</h3>
+        <p>Once an era plays like the original, a Modern ruleset layers on top: a simulated ocean, volumetric skies, weather, destruction and the fidelity of today's shooters.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Eras -->
+<section class="section section-dark" id="eras">
+  <div class="wrap">
+    <p class="eyebrow">One engine, four eras</p>
+    <h2 class="display">Every game on Refractor</h2>
+    <p class="lede">Beachhead covers the whole Refractor lineage: two Refractor 1 eras in development today, two Refractor 2 eras next. Each keeps its own HUD, weapons and feel.</p>
+    <div class="eras">
+      <article class="era era-42">
+        <div class="era-art"><img src="assets/brand/era-42.webp" alt="Beachhead '42" loading="lazy" width="1100" height="555"></div>
+        <div class="era-body">
+          <p class="era-tag"><span class="dot dot-live"></span>In development · Refractor 1</p>
+          <h3>Beachhead '42</h3>
+          <p>The reimplementation of Battlefield 1942 and its expansions. Wake Island leads the way.</p>
+        </div>
+      </article>
+      <article class="era era-vietnam">
+        <div class="era-art"><img src="assets/brand/era-vietnam.webp" alt="Beachhead Vietnam" loading="lazy" width="1100" height="619"></div>
+        <div class="era-body">
+          <p class="era-tag"><span class="dot dot-live"></span>In development · Refractor 1</p>
+          <h3>Beachhead Vietnam</h3>
+          <p>The reimplementation of Battlefield Vietnam, from Operation Irving's rivers to the helicopters.</p>
+        </div>
+      </article>
+      <article class="era era-escalation">
+        <div class="era-art"><img src="assets/brand/era-escalation.webp" alt="Beachhead Escalation" loading="lazy" width="1100" height="609"></div>
+        <div class="era-body">
+          <p class="era-tag"><span class="dot"></span>Next · Refractor 2</p>
+          <h3>Beachhead Escalation</h3>
+          <p>Modern combined arms on the second-generation engine: commanders, squads and jets.</p>
+        </div>
+      </article>
+      <article class="era era-coldfront">
+        <div class="era-art era-type" aria-hidden="true">
+          <span class="ct-top">BEACHHEAD</span>
+          <span class="ct-bottom">COLD FRONT</span>
+        </div>
+        <div class="era-body">
+          <p class="era-tag"><span class="dot"></span>Next · Refractor 2</p>
+          <h3>Beachhead Cold Front</h3>
+          <p>A new ice age and the front line it pushed south: walkers, titans and the war after next.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Classic & Modern -->
+<section class="section" id="modes">
+  <div class="wrap">
+    <p class="eyebrow">Two ways to play every era</p>
+    <h2 class="display">Classic &amp; Modern</h2>
+    <div class="modes">
+      <article class="mode">
+        <figure class="mode-shot">
+          <img src="assets/img/classic-spawn.webp" alt="The original spawn screen of Wake Island, drawn by Beachhead from the game's own menu files" loading="lazy">
+        </figure>
+        <div class="mode-body">
+          <h3><span class="mode-chip">Classic</span>The game you remember</h3>
+          <p>A preservation of the original, presentation and gameplay alike. The menus and HUD are the game's own menu files, run by a reimplementation of its interface runtime, animations included.</p>
+          <ul class="ticks">
+            <li>Original physics, damage and weapon rules, recovered</li>
+            <li>Original HUD, spawn screen and minimap, from the game's files</li>
+            <li>Original sound scripts, water, sky and lighting</li>
+            <li>Classic quirks kept, so muscle memory still works</li>
+          </ul>
+        </div>
+      </article>
+      <article class="mode">
+        <figure class="mode-shot">
+          <img src="assets/img/wake-storm.webp" alt="A tropical storm rolling over Wake Island in the Modern look" loading="lazy">
+        </figure>
+        <div class="mode-body">
+          <h3><span class="mode-chip mode-chip-alt">Modern</span>The game it could be</h3>
+          <p>A new experience layered on each finished Classic, aiming at the fidelity of today's Battlefield. Servers pick the ruleset for the match.</p>
+          <ul class="ticks">
+            <li>Three-cascade FFT ocean with swell, surf and translucent crests</li>
+            <li>Volumetric clouds, a full 24-hour sky, weather from 0 to 100</li>
+            <li>Deformable terrain and destructible buildings on the roadmap</li>
+            <li>PBR materials, global illumination and volumetric smoke planned</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Time of day -->
+<section class="section section-band" id="clock">
+  <div class="wrap">
+    <div class="split-head">
+      <div>
+        <p class="eyebrow">Wake Island · one beach, one camera</p>
+        <h2 class="display">Around the clock</h2>
+      </div>
+      <p class="lede lede-side">A continuous day on a single clock: drag through it.</p>
+    </div>
+    <div class="clock" data-clock>
+      <div class="clock-frames">
+        <img src="assets/img/wake-morning.webp" alt="Wake Island beach at 07:00" class="is-on" loading="lazy">
+        <img src="assets/img/wake-midday.webp" alt="Wake Island beach at 12:30" loading="lazy">
+        <img src="assets/img/wake-evening.webp" alt="Wake Island beach at 18:12" loading="lazy">
+        <img src="assets/img/wake-night.webp" alt="Wake Island beach at 22:30" loading="lazy">
+      </div>
+      <div class="clock-bar" role="tablist" aria-label="Time of day">
+        <button role="tab" aria-selected="true" data-i="0"><b>07:00</b>Morning</button>
+        <button role="tab" aria-selected="false" data-i="1"><b>12:30</b>Midday</button>
+        <button role="tab" aria-selected="false" data-i="2"><b>18:12</b>Evening</button>
+        <button role="tab" aria-selected="false" data-i="3"><b>22:30</b>Night</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section section-dark" id="gallery">
+  <div class="wrap">
+    <p class="eyebrow">In-engine, today</p>
+    <h2 class="display">Gallery</h2>
+    <div class="tabs" role="tablist" aria-label="Map">
+      <button role="tab" aria-selected="true" data-tab="wake">Wake Island <small>Beachhead '42</small></button>
+      <button role="tab" aria-selected="false" data-tab="irving">Operation Irving <small>Beachhead Vietnam</small></button>
+    </div>
+    <div class="grid" data-panel="wake">
+      <a class="tile tile-wide" href="assets/img/wake-aerial.webp" data-caption="The atoll from above, volumetric cumulus offshore · 13:00"><img src="assets/img/wake-aerial-sm.webp" alt="Wake Island atoll from above" loading="lazy"></a>
+      <a class="tile" href="assets/img/wake-lagoon.webp" data-caption="Shallows toward the bridge gap: colour from the real depth · 15:00"><img src="assets/img/wake-lagoon-sm.webp" alt="Clear lagoon shallows" loading="lazy"></a>
+      <a class="tile" href="assets/img/wake-surf.webp" data-caption="Eye level on the open swell · 16:00"><img src="assets/img/wake-surf-sm.webp" alt="Open sea swell near the island" loading="lazy"></a>
+      <a class="tile" href="assets/img/wake-overcast.webp" data-caption="Full overcast, no rain · clouds 100, weather 40"><img src="assets/img/wake-overcast-sm.webp" alt="Overcast sky over the beach" loading="lazy"></a>
+      <a class="tile" href="assets/img/wake-storm.webp" data-caption="Tropical storm rolling in · weather 90"><img src="assets/img/wake-storm-sm.webp" alt="Storm and rain over Wake Island" loading="lazy"></a>
+    </div>
+    <div class="grid" data-panel="irving" hidden>
+      <a class="tile tile-wide" href="assets/img/irving-bank.webp" data-caption="River patrol dock in the morning haze"><img src="assets/img/irving-bank-sm.webp" alt="A patrol boat at a jungle river dock" loading="lazy"></a>
+      <a class="tile" href="assets/img/irving-river.webp" data-caption="At the waterline: the jungle bank mirrored in the river"><img src="assets/img/irving-river-sm.webp" alt="Jungle riverbank reflected in brown water" loading="lazy"></a>
+      <a class="tile" href="assets/img/irving-dusk.webp" data-caption="The same bend after sunset"><img src="assets/img/irving-dusk-sm.webp" alt="The river bend at dusk" loading="lazy"></a>
+    </div>
+    <p class="fineprint">In-engine renders of content from the developer's own copies. Work in progress.</p>
+  </div>
+</section>
+
+<!-- Under the hood -->
+<section class="section" id="engine">
+  <div class="wrap">
+    <p class="eyebrow">Under the hood</p>
+    <h2 class="display">Built to outlive the originals</h2>
+    <div class="features">
+      <div class="feature"><h3>Recovered physics</h3><p>Engines and gears, springs, grip, wings, buoyancy, drag and propeller thrust, each traced to the original before it is written.</p></div>
+      <div class="feature"><h3>The original interface</h3><p>The game's own menu files run on a reimplemented interface runtime: spawn screen, HUD, minimap and their animations.</p></div>
+      <div class="feature"><h3>Original sound</h3><p>Engines, footsteps and landing gear play from the original sound scripts, placed in 3D, with surface-aware steps.</p></div>
+      <div class="feature"><h3>No old limits</h3><p>Original formats are importers into a general engine: bigger terrain, longer view distances, native ultrawide.</p></div>
+      <div class="feature"><h3>Fair at range</h3><p>No concealment culling: full 3D trees to 2.5 km and screen-space-error terrain, so nobody hides behind draw distance.</p></div>
+      <div class="feature"><h3>Made for modders</h3><p>A Godot editor plugin opens any level as an editable scene, with assets kept at their original paths.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Online -->
+<section class="section section-band" id="online">
+  <div class="wrap online">
+    <div>
+      <p class="eyebrow">Coming next</p>
+      <h2 class="display">Online, the way it should be</h2>
+      <p class="lede">Built for players who remember running their own servers. Host from the game and friends join with a code, or run a dedicated box and it shows up for everyone.</p>
+    </div>
+    <ul class="stats">
+      <li><b>64</b><span>players by default</span></li>
+      <li><b>128</b><span>for custom servers and mods</span></li>
+      <li><b>LAN</b><span>with automatic discovery</span></li>
+      <li><b>Win · Linux</b><span>dedicated server with remote admin</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Roadmap -->
+<section class="section section-dark" id="roadmap">
+  <div class="wrap">
+    <p class="eyebrow">The plan</p>
+    <h2 class="display">Classic first, all four</h2>
+    <p class="lede">Every era reaches its Classic before any new Modern work begins. One era at a time, one map first, then the full catalogue.</p>
+    <ol class="road">
+      <li class="road-now"><span class="road-step">Now</span><h3>Beachhead '42 on Wake Island</h3><p>Gameplay and presentation to near 1:1, checked against the original.</p></li>
+      <li><span class="road-step">Then</span><h3>Beachhead '42, every map</h3><p>The full official catalogue, expansions included.</p></li>
+      <li><span class="road-step">Then</span><h3>Beachhead Vietnam</h3><p>Operation Irving already runs; Classic parity follows, then all maps.</p></li>
+      <li><span class="road-step">Shared</span><h3>Dedicated servers and multiplayer</h3><p>One server for every era, LAN to internet.</p></li>
+      <li><span class="road-step">Next</span><h3>Refractor 2: Escalation, then Cold Front</h3><p>New importers for the second-generation engine's formats.</p></li>
+      <li><span class="road-step">After</span><h3>Modern, per era</h3><p>The Modern ruleset layered on each finished Classic.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap wrap-narrow">
+    <p class="eyebrow">Questions</p>
+    <h2 class="display">FAQ</h2>
+    <details>
+      <summary>Do I need the original games?</summary>
+      <p>Yes. Beachhead contains no original assets. You point it at your own legally owned installation and it reads the content from there.</p>
+    </details>
+    <details>
+      <summary>Is it free?</summary>
+      <p>Beachhead is an open-source engine reimplementation, in the tradition of OpenMW and OpenRA. The license is still being decided.</p>
+    </details>
+    <details>
+      <summary>When can I play it?</summary>
+      <p>There is no release date yet. Wake Island and Operation Irving are playable in development builds today.</p>
+    </details>
+    <details>
+      <summary>Will my mods work?</summary>
+      <p>Mod support is part of the plan. Beachhead keeps the original virtual paths, and its editor plugin opens levels as editable scenes for new maps and mods.</p>
+    </details>
+    <details>
+      <summary>Who makes it?</summary>
+      <p>One person: ZALIAS™, part of the Battlefield 1942 and Battlefield Vietnam modding community since 2005.</p>
+    </details>
+    <details>
+      <summary>Is this an official Battlefield project?</summary>
+      <p>No. Beachhead is independent and unofficial, and is not affiliated with, sponsored by or endorsed by Electronic Arts or DICE.</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-mark">BEACHHEAD</p>
+      <p class="footer-tag">Eras of Conquest · a solo project by ZALIAS™</p>
+    </div>
+    <div class="legal">
+      <p>Beachhead is an independent, unofficial reimplementation and rewrite of the game engine. It does not include or distribute any original or licensed game assets; original content is read in place from the player's own, legally owned installation. Battlefield and all associated names, assets and trademarks belong to their respective owners. Beachhead is not affiliated with, sponsored by or endorsed by Electronic Arts or DICE.</p>
+      <p>Screenshots are in-engine renders of content from the developer's own copies. Beachhead – Eras of Conquest and its era titles are working names.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" hidden aria-modal="true" role="dialog" aria-label="Image viewer">
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" aria-label="Previous">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-next" aria-label="Next">›</button>
+</div>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
