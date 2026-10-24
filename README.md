@@ -26,6 +26,8 @@ Then open http://localhost:8742.
 ## Images
 
 `assets/img/` holds WebP copies of the showcase renders (1920 px plus 720 px thumbnails) and
-`assets/brand/` the painted era logos, made from the originals in the workspace's
-`progress/showcase` and `progress/branding` folders by `scratch/site_images.py`. The Cold Front
-card uses a type-only wordmark until its logo exists.
+`assets/brand/` the title wordmarks cut from the workspace's `Beachhead_titles-transparent.png`
+(`scratch/site_images.py`, `scratch/site_images2.py`). The sheet's fourth wordmark still reads
+FUTURE WAR, so the Cold Front card shows its BEACHHEAD mark with a COLD FRONT line drawn in CSS
+until the sheet is updated. Operation Irving's newer shots come from the owner's Pictures folder,
+cropped evenly on both sides to drop the debug panel in their top-right corner.
