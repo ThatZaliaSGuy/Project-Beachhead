@@ -17,7 +17,7 @@ This repository hosts the project's website.
 | **Beachhead '42** | Battlefield 1942, with The Road to Rome and Secret Weapons of WWII | In development |
 | **Beachhead Vietnam** | Battlefield Vietnam | In development |
 | **Beachhead Escalation** | Battlefield 2, with Special Forces, Euro Force and Armored Fury | Next |
-| **Beachhead Cold Front** | Battlefield 2142, with Northern Strike | Next |
+| **Beachhead Future War** | Battlefield 2142, with Northern Strike | Next |
 
 ## Classic and Modern
 
